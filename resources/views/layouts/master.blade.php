@@ -119,6 +119,13 @@
                             <li><i class="fa fa-newspaper-o"></i><a href="/expenses">All Expense</a></li>
                         </ul>
                     </li>
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-user"></i>Trainers</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="fa fa-user"></i><a href="/trainers/create">Add New</a></li>
+                            <li><i class="fa fa-user"></i><a href="/trainers">All Trainers</a></li>
+                        </ul>
+                    </li>
                    
                 </ul>
             </div><!-- /.navbar-collapse -->

@@ -14,4 +14,8 @@ class Course extends Model
    public function student(){
     return $this->hasMany('App\Student','course_id');
    }
+   public function trainer()
+    {
+        return $this->hasMany('App\Trainer','course_id');
+    }
 }

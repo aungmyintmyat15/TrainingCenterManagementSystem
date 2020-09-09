@@ -15,4 +15,8 @@ class Batch extends Model
 public function student(){
     return $this->hasMany('App\Student','batch_id');
    }
+   public function trainer()
+    {
+        return $this->hasMany('App\Trainer','batch_id');
+    }
 }

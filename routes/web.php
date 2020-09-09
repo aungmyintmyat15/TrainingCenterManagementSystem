@@ -28,3 +28,4 @@ Route::resource('/students','StudentController');
 Route::resource('/attendences','AttendenceController');
 Route::resource('/payments','PaymentController');
 Route::resource('/expenses','ExpenseController');
+Route::resource('/trainers','TrainerController');
